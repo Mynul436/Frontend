@@ -49,7 +49,7 @@
 
     jQuery.noConflict();
     jQuery(document).ready(function($){
-        console.log("sadf");
+       // console.log("sadf");
         $("#load-button").click(function(e){
           //  console.log("page lode");
             $.ajax({
@@ -60,7 +60,7 @@
                 }
             });
 
-            alert("asdf");
+          //  alert("asdf");
         })
 
     })
